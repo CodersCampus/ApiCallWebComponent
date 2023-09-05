@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <title>&lt;api-element> Demo</title>
+  <script src="../node_modules/@webcomponents/webcomponentsjs/webcomponents-loader.js"></script>
+  <script src="../node_modules/lit/polyfill-support.js"></script>
+  <script type="module" src="../api-element.js"></script>
+  <style>
+    div {
+      border: solid 1px blue;
+      padding: 8px;
+      margin: 10px;
+    }
+  </style>
+</head>
+
+<body>
+  <api-element>
+    <div>
+      <p>This is child content that is wrapped by the web component.</p>
+      <p>It could be complex content, too! Such as another web component, like below.</p>  
+      <api-element>
+      </api-element>    
+      <br>
+      <a href="https://lit.dev/" target="blank">Want to learn more?</a>
+    </div>
+  </api-element>
+</body>
+
+</html>

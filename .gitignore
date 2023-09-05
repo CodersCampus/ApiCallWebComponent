@@ -1,0 +1,14 @@
+/node_modules/
+/lib/
+/test/
+custom-elements.json
+# top level source
+api-element.js
+api-element.js.map
+api-element.d.ts
+api-element.d.ts.map
+# only generated for size check
+api-element.bundled.js
+# controversial move:
+package-lock.json
+.DS_Store
